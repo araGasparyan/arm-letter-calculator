@@ -9,10 +9,10 @@ public class ArmLetterCalcFrame extends JFrame {
 
     public ArmLetterCalcFrame() {
             // Frame size
-            int w = 702, h = 300;
+            int w = 732, h = 300;
 
             // Title of the Frame
-            setTitle("Յաշվարար");
+            setTitle("Armenian Letter Calculator");
 
             // Creation of a panel with buttons
             ArmLetterPanel panel = new ArmLetterPanel(w, h);
