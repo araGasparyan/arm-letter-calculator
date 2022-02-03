@@ -1,6 +1,5 @@
 # Armenian letter calculator
-Armenian letter calculator is a small desktop application for converting an Armenian medieval numbering system to a decimal system and the opposite written by java. The functionality of a simple calculator is included in the application as well.
-
+Armenian letter calculator is a java based desktop application for converting an Armenian medieval numbering system to a decimal system and the opposite. The functionality of a simple calculator is included in the application as well.
 <p align="center">
 <img src="./capture.png" Alt="Armenian letter calculator by Ara Gasparyan" />
 </p>
@@ -8,7 +7,7 @@ Armenian letter calculator is a small desktop application for converting an Arme
 ## Setup
 (1) Change directory into the root of the project:
 ```sh
-cd armLetterCalculator
+cd arm-letter-calculator
 ```
 
 (2) Compile the source code and keep the bytecode in the **target** folder:
@@ -16,7 +15,7 @@ cd armLetterCalculator
 javac -d target src/calculator/*.java
 ```
 
-(3) Create jar artifact:
+(3) Create jar artifact (this step may depend on OS):
 ```sh
 cp -r src/META-INF target/
 cd target
